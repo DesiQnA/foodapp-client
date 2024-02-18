@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Lato:wght@100;300;700&family=Poppins:wght@200;400;500;600&family=Public+Sans:wght@100;200;400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  z-index: 10001 !important;
+}
+.section-container {
+  @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
+}
+
+.subtitle {
+  @apply text-red uppercase tracking-wide font-medium text-lg;
+}
+
+.title {
+  @apply text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug;
+}
+
+.heartStar {
+  border-radius: 0px 28px 0px 28px;
+}
+.active {
+  color: rgb(225, 225, 227);
+  background: rgb(57, 57, 196);
+  border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
